@@ -1,0 +1,215 @@
+{
+    "pokemons": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "abilities": [
+                "Overgrow",
+                "Chlorophyll"
+            ],
+            "stats": {
+                "hp": 45,
+                "attack": 49,
+                "defense": 49,
+                "specialAttack": 65,
+                "specialDefense": 65,
+                "speed": 45
+            },
+            "evolution": {
+                "next": "Ivysaur",
+                "level": 16
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "abilities": [
+                "Overgrow",
+                "Chlorophyll"
+            ],
+            "stats": {
+                "hp": 60,
+                "attack": 62,
+                "defense": 63,
+                "specialAttack": 80,
+                "specialDefense": 80,
+                "speed": 60
+            },
+            "evolution": {
+                "next": "Venusaur",
+                "level": 32
+            }
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "abilities": [
+                "Overgrow",
+                "Chlorophyll"
+            ],
+            "stats": {
+                "hp": 80,
+                "attack": 82,
+                "defense": 83,
+                "specialAttack": 100,
+                "specialDefense": 100,
+                "speed": 80
+            },
+            "evolution": {
+                "next": null,
+                "level": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "type": [
+                "Fire"
+            ],
+            "abilities": [
+                "Blaze",
+                "Solar Power"
+            ],
+            "stats": {
+                "hp": 39,
+                "attack": 52,
+                "defense": 43,
+                "specialAttack": 60,
+                "specialDefense": 50,
+                "speed": 65
+            },
+            "evolution": {
+                "next": "Charmeleon",
+                "level": 16
+            }
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "type": [
+                "Fire"
+            ],
+            "abilities": [
+                "Blaze",
+                "Solar Power"
+            ],
+            "stats": {
+                "hp": 58,
+                "attack": 64,
+                "defense": 58,
+                "specialAttack": 80,
+                "specialDefense": 65,
+                "speed": 80
+            },
+            "evolution": {
+                "next": "Charizard",
+                "level": 36
+            }
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "type": [
+                "Fire",
+                "Flying"
+            ],
+            "abilities": [
+                "Blaze",
+                "Solar Power"
+            ],
+            "stats": {
+                "hp": 78,
+                "attack": 84,
+                "defense": 78,
+                "specialAttack": 109,
+                "specialDefense": 85,
+                "speed": 100
+            },
+            "evolution": {
+                "next": null,
+                "level": null
+            }
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "type": [
+                "Water"
+            ],
+            "abilities": [
+                "Torrent",
+                "Rain Dish"
+            ],
+            "stats": {
+                "hp": 44,
+                "attack": 48,
+                "defense": 65,
+                "specialAttack": 50,
+                "specialDefense": 64,
+                "speed": 43
+            },
+            "evolution": {
+                "next": "Wartortle",
+                "level": 16
+            }
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "type": [
+                "Water"
+            ],
+            "abilities": [
+                "Torrent",
+                "Rain Dish"
+            ],
+            "stats": {
+                "hp": 59,
+                "attack": 63,
+                "defense": 80,
+                "specialAttack": 65,
+                "specialDefense": 80,
+                "speed": 58
+            },
+            "evolution": {
+                "next": "Blastoise",
+                "level": 36
+            }
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "type": [
+                "Water"
+            ],
+            "abilities": [
+                "Torrent",
+                "Rain Dish"
+            ],
+            "stats": {
+                "hp": 79,
+                "attack": 83,
+                "defense": 100,
+                "specialAttack": 85,
+                "specialDefense": 105,
+                "speed": 78
+            },
+            "evolution": {
+                "next": null,
+                "level": null
+            }
+        }
+    ]
+}
