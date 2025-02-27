@@ -1,4 +1,4 @@
-class Cep {
+class Service {
     async getCep(i) {
         const { cep } = i.params;
         try {
@@ -14,4 +14,4 @@ class Cep {
     }
 }
 
-module.exports = Cep;
+module.exports = Service;
