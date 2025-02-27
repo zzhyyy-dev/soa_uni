@@ -1,17 +1,28 @@
 class Service {
-    async getCep(i) {
-        const { cep } = i.params;
+    async _fetchData(url) {
         try {
-            const res = await fetch(`https://viacep.com.br/ws/${cep}/json`);
-            if (!res.ok) {
-                throw new Error('Não foi possível obter o CEP');
+            const req = await fetch(url);
+            if (!req.ok) {
+                throw new Error('api call failed');
             }
-            const address = await res.json();
-            return [true, address];
+            const res = await req.json();
+            return [true, res];
         } catch (error) {
             return [false, error.message];
         }
     }
 }
 
-module.exports = Service;
+class Cep {
+    async getCep(i) {
+        const { cep } = i.params;
+        const fetchData = new Service();
+        let [ok, reply] = await fetchData._fetchData(`https://viacep.com.br/ws/${cep}/json`);
+        if (!ok) {
+            return [false, reply];
+        }
+        return [true, reply];
+    }
+}
+
+module.exports = Cep;
